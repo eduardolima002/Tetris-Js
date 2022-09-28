@@ -1,0 +1,23 @@
+body{
+    background-color: #333;
+    color: #FFF;
+}
+
+div{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+#tetris {
+    display: block;
+    margin: 0 auto;
+}
+
+#score, #speed{
+    display: inline-block;
+}
+
+p{color: red;}
