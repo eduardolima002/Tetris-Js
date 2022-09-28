@@ -8,7 +8,7 @@
     const COL = 10;
     const SQ = 30;
     const defaultColor = "#111";
-    const defaultBorder = "rgba(255,255,255,0.1)";
+    const defaultBorder = "rgb(180,180,180)";
 
     let speed = 500;
     let dropStart = Date.now();
@@ -36,3 +36,7 @@
     let piece = randomPiece();
 
     drop();
+
+    document.addEventListener("keydown", CONTROL);
+
+   
